@@ -15,5 +15,5 @@ O problema aqui tratado consite em, fornecidas as tabelas de
 - Atividades econômicas desenvolvidas nos bairros do Espírito Santo (anonimizada)
 criar um modelo que permita relacionar bairros, atividades econômicas e características sócio-econômicas.
 
-
+O relacionamento criado entre bairros, atividades econômicas e características sócio-econômicas permitirá uma diversidade de análises como, por exemplo, determinar bairros equivalentes, identificar bairros promissores para exercer uma determinada atividade, entender como as características sócio-econômicas influenciam nas atividades econômicas dos bairros e vice-versa, entre outras.
 
