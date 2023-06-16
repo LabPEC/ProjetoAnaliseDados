@@ -17,3 +17,13 @@ criar um modelo que permita relacionar bairros, atividades econômicas e caracte
 
 O relacionamento criado entre bairros, atividades econômicas e características sócio-econômicas permitirá uma diversidade de análises como, por exemplo, determinar bairros equivalentes, identificar bairros promissores para exercer uma determinada atividade, entender como as características sócio-econômicas influenciam nas atividades econômicas dos bairros e vice-versa, entre outras.
 
+Após a fase de Coleta de Dados, foi definido durante a fase Exploração e Processamento dos dados que os bairros a serem tratados deveriam pertencer aos municípios da Grande Vitória (GV):
+ - CARIACICA
+ - SERRA
+ - VIANA
+ - VILA VELHA
+ - VITORIA
+já que os códigos dos bairros da GV foram definidos pelo IBGE pois seus municípios tiveram suas leis de bairros aprovadas até agosto de 2010. No Espírito Santo somente 12 municípios  tiveram suas leis de bairros aprovadas até agosto de 2010. São eles: Aracruz, Barra de São Francisco, Cachoeiro de Itapemirim, Cariacica,
+Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
+
+
