@@ -28,4 +28,7 @@ Após a fase de Coleta de Dados, foi definido durante a fase Exploração e Proc
 já que os códigos dos bairros da GV foram definidos pelo IBGE pois seus municípios tiveram suas leis de bairros aprovadas até agosto de 2010. No Espírito Santo somente 12 municípios  tiveram suas leis de bairros aprovadas até agosto de 2010. São eles: Aracruz, Barra de São Francisco, Cachoeiro de Itapemirim, Cariacica,
 Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
 
+Este arcabouço está organizado da seguinte forma:
+
+
 
