@@ -30,7 +30,7 @@ Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
 
 Este arcabouço está organizado da seguinte forma:
 
-\* Para construir um ambiente linux para executar os códigos aqui disponibilizados, [leia as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)
+* Para construir um ambiente linux para executar os códigos aqui disponibilizados, [leia as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)
 
 
 
