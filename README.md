@@ -31,7 +31,7 @@ Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
 Este arcabouço está organizado da seguinte forma:
 
 * Para construir um ambiente para executar os códigos aqui disponibilizados, [leia as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)
-* o diretório [01ETL](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL) contém os códigos e arquivos para a execução da fase de Exploração dos dados (*Extract, Transform and Load* -- ETL)
+* o diretório [01ETL](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL) contém os códigos e arquivos para a execução da fase de Exploração dos Dados (*Extract, Transform and Load* -- ETL)
 
 
 
