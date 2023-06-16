@@ -1,34 +1,11 @@
-# Projeto em Análise de Dados
+# Exploração dos Dados (*Extract, Transform and Load* -- ETL)
 
-Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em Análise de Dados utilizando a linguagem de programação Python. Com ele é possível acompanhar e reproduzir de forma prática e explicativa os passos do Ciclo de Análise de Dados, conforme figura abaixo:
-<div align="center">
-  
-![](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/ciclo_dados_branco-768x420.png?raw=true)
+Este bloco de notas contém todo o código usado para seleção, limpeza e transformação (extração, transformação, carregamento ou ETL, do inglês *Extract Transform Load*) das fontes de dados de bairros e atividades econômicas para aplicação das técnicas de análise de dados a serem estudadas.
 
-  autor: [Análise Macro](https://analisemacro.com.br/econometria-e-machine-learning/o-ciclo-de-analise-de-dados-um-roteiro-para-resolver-problemas/)
-  
-</div>
+O bloco de notas Jupyter [PreparacaoDados.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) recebe como entrada o arquivo de atividades econômicas do Estado do Espírito Santo [ATIVECO_ES](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_ES.csv.tar.gz) anonimizado e dois arquivos públicos extraídos das plataformas do IBGE: [AtividadesEconomicas_IBGE.xlsx](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_IBGE.xlsx) e [BairrosGV_IBGE.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/BairrosGV_IBGE.csv).
 
-O problema aqui tratado consite em, fornecidas as tabelas de
-- Classificação Nacional de Atividades Econômicas do IBGE,
-- Bairros utilizados pelo IBGE no Censo Demográfico de 2010 e suas características sócio-econômicas e
-- Atividades econômicas desenvolvidas nos bairros do Espírito Santo (anonimizada),
+O arquivo [AtividadesEconomicas_IBGE.xlsx](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_IBGE.xlsx) descreve a estrutura detalhada da CNAE-Subclasses 2.3 (códigos nacionais e suas respectivas atividades econômicas).
+Já o arquivo [BairrosGV_IBGE.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/BairrosGV_IBGE.csv) contém os códigos e os bairros dos municípios da Grande Vitória (GV): Cariacica, Serra, Viana, Vila Velha e Vitória. Os códigos dos bairros da GV foram definidos pelo IBGE pois seus municípios tiveram suas leis de bairros aprovadas até agosto de 2010. Todos os arquivos de entrada estão posicionados no diretório [INPUT](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL/INPUT)
 
-criar um modelo que permita relacionar bairros, atividades econômicas e características sócio-econômicas.
-
-O relacionamento criado entre bairros, atividades econômicas e características sócio-econômicas permitirá uma diversidade de análises como, por exemplo, determinar bairros equivalentes, identificar bairros promissores para exercer uma determinada atividade, entender como as características sócio-econômicas influenciam nas atividades econômicas dos bairros e vice-versa, entre outras.
-
-Após a fase de Coleta de Dados, foi definido durante a fase Exploração e Processamento dos dados que os bairros a serem tratados deveriam pertencer aos municípios da Grande Vitória (GV):
- - Cariacica,
- - Serra,
- - Viana,
- - Vila Velha e
- - Vitória
-
-já que os códigos dos bairros da GV foram definidos pelo IBGE pois seus municípios tiveram suas leis de bairros aprovadas até agosto de 2010. No Espírito Santo somente 12 municípios  tiveram suas leis de bairros aprovadas até agosto de 2010. São eles: Aracruz, Barra de São Francisco, Cachoeiro de Itapemirim, Cariacica,
-Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
-
-Este arcabouço está organizado da seguinte forma:
-
-
+Como saída do processamento desse bloco de notas, tem-se um arquivo contendo uma tabela cujas linhas contêm os bairros presentes no arquivo ATIVECO_ES (mapeadas para os códigos de bairros do IBGE) e cujas colunas contêm as atividades presentes no arquivo ATIVECO_ES (mapeadas para os códigos de atividades do CNAE). O conteúdo de cada célula da tabela contém a quantidade daquela atividade (coluna) naquele bairro (linha). O arquivo de saida servirá de entrada para o próximo módulo (bloco de notas) de Exploração dos Dados.
 
