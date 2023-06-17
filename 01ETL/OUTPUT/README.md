@@ -8,6 +8,6 @@ Os arquivos temporários servem para acompanhamento da evolução do processamen
 
 Cada célula da tabela de saida contém a quantidade daquela atividade (coluna) naquele bairro (linha). O arquivo de saida servirá de entrada para o próximo módulo (bloco de notas) de [Exploração dos Dados](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar).
 
-Os arquivos de saida não aparecem aqui no repositório. Para enxergá-los é necessário rodar o programa em sua maquína.
+Os arquivos de saida não aparecem aqui no repositório. Para enxergá-los é necessário rodar o programa em sua máquína.
 
 
