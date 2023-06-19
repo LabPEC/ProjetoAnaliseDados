@@ -12,5 +12,5 @@ O arquivo de entrada contém uma tabela cujas linhas contêm os bairros presente
 
 Após a análise exploratório definiu-se como [saida do processamento](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT) do bloco de notas Jupyter [Processamento_AnaliseExploratoria.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/Processamento_AnaliseExploratoria.ipynb) uma separação em grupos (ou *clusters*) de bairros através da aplicação da técnica de aprendizado não Supervisionado (os dados de treinamento não são rotulados, ou seja, sistema tenta aprender sem um professor) denominada *k-Means*.
 
-[//]: #  [saida do processamento](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/INPUT/504_PCA_Cluster3.csv)
+[//]: #  ([saida do processamento](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/INPUT/504_PCA_Cluster3.csv))
 
