@@ -12,6 +12,6 @@ Cada célula da tabela de saida contém a quantidade daquela atividade (coluna) 
 
 O arquivo de saida servirá de entrada para o próximo módulo (bloco de notas) de [Exploração dos Dados](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar).
 
-Os arquivos de saida não aparecem aqui no repositório. Para enxergá-los é necessário rodar em sua máquína (ver [as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)) o bloco de notas Jupyter [PreparacaoDados.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) com as entradas.
+Os arquivos de saida não aparecem aqui no repositório. Para enxergá-los é necessário rodar em sua máquína (ver [as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)) o bloco de notas Jupyter [PreparacaoDados.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) com as [entradas](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL/INPUT).
 
 
