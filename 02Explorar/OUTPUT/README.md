@@ -1,6 +1,6 @@
-# Saidas da ETL
+# Saidas do Processamento e Análise Exploratória
 
-O diretório `OUTPUT` contém todos os arquivos gerados pelo processamento ETL. Todos os arquivos são de extensão `csv`.
+O diretório `OUTPUT` contém todos os arquivos gerados pelo Processamento e Análise Exploratória. No diretório [raiz](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT) estão todos os arquivos são de extensão `csv`. No diretório [Imagens](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT/Imagens) estão todos os arquivos de extensão `png`.
 
 Todos os arquivos gerados são temporários exceto o arquivo [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv).
 
