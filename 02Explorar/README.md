@@ -1,37 +1,13 @@
-# Projeto em Análise de Dados
+# Processamento e Análise Exploratória
 
-Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em Análise de Dados utilizando a linguagem de programação Python. Com ele é possível acompanhar e reproduzir de forma prática e explicativa os passos do Ciclo de Análise de Dados, conforme figura abaixo:
-<div align="center">
-  
-![](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/ciclo_dados_branco-768x420.png?raw=true)
+O bloco de notas Jupyter [Processamento_AnaliseExploratoria.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/Processamento_AnaliseExploratoria.ipynb) contém todo o código usado para processamento e análise exploratória dos dados relevantes e formatados para futura aplicação das técnicas de análise de dados e consequente criação de um modelo de classificação.
 
-  autor: [Análise Macro](https://analisemacro.com.br/econometria-e-machine-learning/o-ciclo-de-analise-de-dados-um-roteiro-para-resolver-problemas/)
-  
-</div>
+O bloco de notas Jupyter [Processamento_AnaliseExploratoria.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/Processamento_AnaliseExploratoria.ipynb) (como todos os blocos de notas Jupyter desse repositório) contém riqueza de comentários e documentação que permitem o acompanhamento e entendimento de todo o processamento e código. Dessa forma, o bloco de notas Jupyter[Processamento_AnaliseExploratoria.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/Processamento_AnaliseExploratoria.ipynb) basta-se a si mesmo (*self-contained*).
 
-O problema aqui tratado consite em, fornecidas as tabelas de
-- Classificação Nacional de Atividades Econômicas do IBGE,
-- Bairros utilizados pelo IBGE no Censo Demográfico de 2010 e suas características sócio-econômicas e
-- Atividades econômicas desenvolvidas nos bairros do Espírito Santo (anonimizada),
-
-criar um modelo que permita relacionar bairros, atividades econômicas e características sócio-econômicas.
-
-O relacionamento criado entre bairros, atividades econômicas e características sócio-econômicas permitirá uma diversidade de análises como, por exemplo, determinar bairros equivalentes, identificar bairros promissores para exercer uma determinada atividade, entender como as características sócio-econômicas influenciam nas atividades econômicas dos bairros e vice-versa, entre outras.
-
-Após a fase de Coleta de Dados, foi definido durante a fase Exploração e Processamento dos dados que os bairros a serem tratados deveriam pertencer aos municípios da Grande Vitória (GV):
- - Cariacica,
- - Serra,
- - Viana,
- - Vila Velha e
- - Vitória
-
-já que os códigos dos bairros da GV foram definidos pelo IBGE pois seus municípios tiveram suas leis de bairros aprovadas até agosto de 2010. No Espírito Santo somente 12 municípios  tiveram suas leis de bairros aprovadas até agosto de 2010. São eles: Aracruz, Barra de São Francisco, Cachoeiro de Itapemirim, Cariacica,
-Colatina, Ecoporanga, Iúna, Linhares, Serra, Viana, Vila Velha e Vitória.
-
-Este arcabouço está organizado da seguinte forma:
-
-* Para construir um ambiente para executar os códigos aqui disponibilizados, [leia as instruções detalhadas de instalação](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/INSTALL.md)
-* o diretório [01ETL](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL) contém os códigos e arquivos para a execução da fase de Exploração dos Dados (*Extract, Transform and Load* -- ETL)
+Este bloco de notas recebe como [entrada](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/INPUT) o [arquivo de saida](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv) construído e fornecido pelo [bloco de notas Jupyter](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) usado para seleção, limpeza e transformação (extração, transformação, carregamento ou ETL, do inglês Extract Transform Load).
+O arquivo de entrada contém uma tabela cujas linhas contêm os bairros presentes no arquivo [ATIVECO_ES](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_ES.csv.tar.gz) (mapeadas para os códigos de [bairros do IBGE](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/BairrosGV_IBGE.csv)) e cujas colunas contêm as atividades presentes no arquivo [ATIVECO_ES](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_ES.csv.tar.gz) (mapeadas para os códigos de [atividades do CNAE](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_IBGE.xlsx) agrupados por DIVISÃO). O conteúdo de cada célula da tabela contém a quantidade daquela atividade (coluna) naquele bairro (linha). O arquivo de saida servirá de entrada para o próximo módulo (bloco de notas) de Modelagem.
 
 
+Após a análise exploratório definiu-se como saida do processamento desse bloco de notas uma separação em grupos (ou *clusters*) de bairros atravês da aplicação da técnica de aprendizado não Supervisionado (os dados de treinamento não são rotulados, ou seja, sistema tenta aprender sem um professor) denominada *k-Means*.
 
+Para a análise exploratória são utilizadas técnicas de visualização e redução da dimensionalidade denominada Análise de Componentes Principais (PCA, do inglês *Principal Component Analysis*) e variância explicada (*explained variance*), técnicas estatísticas para escalar os valores-alvo da base denomiandas (escala min-max e padronização) e técnicas estatísticas e matemáticas para encontrar o número ideal de clusters denominadas Método Cotovelo (do inglês *Elbow Method*), distância ponto a reta e coeficiente de Silhouette (*silhouette score*).
