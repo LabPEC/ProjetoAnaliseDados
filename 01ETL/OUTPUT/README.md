@@ -8,7 +8,7 @@ Os arquivos temporários servem para acompanhamento da evolução do processamen
 
 A definição CNAE para atividades econômicas segue uma estrutura hierárquica de códigos (SEÇÕES, DIVISÕES, GRUPOS, CLASSES E SUBCLASSES) e suas denominações. No arquivo de entrada de atividades nos bairros do Espírito Santo ([ATIVECO_ES](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_ES.csv.tar.gz)) aparecem apenas a denominação das atividades. Após o processamento, as atividades estão agrupadas pelo código de DIVISÕES, por exemplo, a DIVISÃO "Comércio Varejista" tem código 47 (ver [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv)).
 
-Cada célula da tabela de saida contém a quantidade daquela atividade (coluna) naquele bairro (linha). , por exemplo, a DIVISÃO "Comércio Varejista" tem código 47 e parece 128 vezes no bairro Alto Lage (que tem código IBGE 3201308049) do município de Cariacica (ver [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv)). 
+Cada célula da tabela de saida contém a quantidade daquela atividade (coluna) naquele bairro (linha), por exemplo, a DIVISÃO "Comércio Varejista" tem código 47 e parece 128 vezes no bairro Alto Lage (que tem código IBGE 3201308049) do município de Cariacica (ver [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv)). 
 
 O arquivo de saida servirá de entrada para o próximo módulo (bloco de notas) de [Exploração dos Dados](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar).
 
