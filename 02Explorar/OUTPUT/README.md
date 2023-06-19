@@ -1,8 +1,8 @@
 # Saidas do Processamento e Análise Exploratória
 
-O diretório `OUTPUT` contém todos os arquivos gerados pelo Processamento e Análise Exploratória. No diretório [raiz](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT) estão todos os arquivos são de extensão `csv`. No diretório [Imagens](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT/Imagens) estão todos os arquivos de extensão `png`.
+O diretório `OUTPUT` contém todos os arquivos gerados pelo Processamento e Análise Exploratória. No diretório [raiz](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT) estão todos os arquivos de extensão `csv`. No diretório [Imagens](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/02Explorar/OUTPUT/Imagens) estão todos os arquivos de extensão `png`.
 
-Todos os arquivos gerados são temporários exceto o arquivo [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv).
+Todos os arquivos gerados são temporários exceto o arquivo [504_PCA_Cluster3.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/INPUT/504_PCA_Cluster3.csv).
 
 Os arquivos temporários servem para acompanhamento da evolução do processamento das bases originais até produzir um arquivo contendo uma tabela cujas linhas contêm os bairros da Grande Vitória (mapeadas para os códigos de bairros do IBGE) e cujas colunas contêm as atividades econômicas exercidas nesses bairros (mapeadas para os códigos de atividades do CNAE agrupados por DIVISÃO).
 
