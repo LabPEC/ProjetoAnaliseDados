@@ -1,6 +1,6 @@
 # Exploração dos Dados (*Extract, Transform and Load* -- ETL)
 
-Este bloco de notas contém todo o código usado para seleção, limpeza e transformação (extração, transformação, carregamento ou ETL, do inglês *Extract Transform Load*) das fontes de dados de bairros e atividades econômicas para aplicação das técnicas de análise de dados a serem estudadas.
+O bloco de notas Jupyter [PreparacaoDados.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) contém todo o código usado para seleção, limpeza e transformação (extração, transformação, carregamento ou ETL, do inglês *Extract Transform Load*) das fontes de dados de bairros e atividades econômicas para aplicação das técnicas de análise de dados a serem estudadas.
 
 O bloco de notas Jupyter [PreparacaoDados.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/PreparacaoDados.ipynb) recebe como entrada o arquivo de atividades econômicas do Estado do Espírito Santo [ATIVECO_ES](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_ES.csv.tar.gz) anonimizado e dois arquivos públicos extraídos das plataformas do IBGE: [AtividadesEconomicas_IBGE.xlsx](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/AtividadesEconomicas_IBGE.xlsx) e [BairrosGV_IBGE.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/01ETL/INPUT/BairrosGV_IBGE.csv).
 
