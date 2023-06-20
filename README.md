@@ -5,7 +5,7 @@ Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em An�
   
 ![](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/ciclo_dados_branco-768x420.png?raw=true)
 
-  autor: [Análise Macro](https://analisemacro.com.br/econometria-e-machine-learning/o-ciclo-de-analise-de-dados-um-roteiro-para-resolver-problemas/)
+  Fonte: próprio autor
   
 </div>
 
