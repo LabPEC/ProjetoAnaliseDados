@@ -1,6 +1,6 @@
 # Saidas das imagens do Processamento e Análise Exploratória
 
-O diretório `OUTPUT/Imagens` contém todos os arquivos  os arquivos de extensão `png` gerados pelo Processamento e Análise Exploratória.
+O diretório `OUTPUT/Imagens` contém todos os arquivos de extensão `png` gerados pelo Processamento e Análise Exploratória.
 
 Todos os arquivos de imangens gerados são temporários. Os arquivos de imagnes servem para acompanhamento da evolução do processamento e produção dos clusters de bairros. 
 
