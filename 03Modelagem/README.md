@@ -13,6 +13,7 @@ Para análises e comparações foram utilizados os classificadores Stochastic Gr
 
 Os modelos foram treinados e avaliados utilizanado o recurso da validação cruzada do Scikit-Learn. Os hiperparâmetros dos modelos foram ajustados utilizanado o recurso de *Grid Search* combinado com validação cruzada do Scikit-Learn.
 
+Após a análise exploratório definiu-se como [saida](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/03Modelagem/OUTPUT)  do processamento do bloco de notas Jupyter [Modelagem.ipynb](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/Modelagem12.ipynb) a comparação entre os modelos utilizados.
 
 [//]: # (This may be the most platform independent comment)
 
