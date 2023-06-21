@@ -19,4 +19,5 @@ person_pb2.py
 02Explorar/OUTPUT/*.csv
 02Explorar/OUTPUT/Imagens/*.png
 03Modelagem/OUTPUT/*.csv
+03Modelagem/OUTPUT/Imagens/*.png
 
