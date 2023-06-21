@@ -9,7 +9,7 @@ Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em An�
   
 </div>
 
-O problema aqui tratado consite em, fornecidas as tabelas de
+O problema aqui tratado consiste em, fornecidas as tabelas de
 - Classificação Nacional de Atividades Econômicas do IBGE,
 - Bairros utilizados pelo IBGE no Censo Demográfico de 2010 e suas características sócio-econômicas e
 - Atividades econômicas desenvolvidas nos bairros do Espírito Santo (anonimizada),
