@@ -1,9 +1,8 @@
-# Entradas do Processamento e Análise Exploratória
+# Entradas da Modelagem
 
-Um único arquivo é fornecido como entrada para o procedimento de Processamento e Análise Exploratória:
--  arquivo [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv)
+Dois arquivos são fornecidos como entrada para o procedimento de Modelagem:
+- o [arquivo](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/INPUT/504_PCA_Cluster3.csv) construído pelo bloco de notas usado para análise exploratória e agrupamento (*clustering*) dos bairros e suas atividades. Esse contém uma tabela cujas linhas contêm os bairros presentes no arquivo ATIVECO_ES (mapeadas para os códigos de bairros do IBGE) e cuja coluna `pred` contêm a identificação do cluster ao qual cada bairro pertence. Esse arquivo foi gerado pelo procedimento de [Exploração dos Dados](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL#readme)
+- uma [tabela](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/03Modelagem/INPUT/TabelaIBGE_Socio_Economica.csv) com 33 características socioeconomicas quantitativas extraídas do Censo Demográfico de 2010 do IBGE
 
-Esse arquivo contém uma tabela tal que cada célula da tabela contém a quantidade de uma determinada atividade (coluna) em um determinado bairro (linha), por exemplo, as atividades agrupadas na DIVISÃO "Comércio Varejista" com código 47 (ver [600Pivot_Flat.csv](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/02Explorar/INPUT/600Pivot_Flat.csv)), aparece 128 vezes no bairro Alto Lage (que tem código IBGE 3201308049) do município de Cariacica.
 
-Esse arquivo foi gerado pelo procedimento de [Exploração dos Dados](https://github.com/LabPEC/ProjetoAnaliseDados/tree/main/01ETL#readme)
 
