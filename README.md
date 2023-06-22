@@ -1,6 +1,6 @@
-# Projeto em Análise de Dados
+# Projeto em Ciência e Análise de Dados
 
-Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em Análise de Dados utilizando a linguagem de programação Python. Com ele é possível acompanhar e reproduzir de forma prática e explicativa os passos do Ciclo de Análise de Dados, conforme figura abaixo:
+Este projeto tem o objetivo de ser um arcabouço de ensino e aprendizagem em Ciência e Análise de Dados utilizando a linguagem de programação Python. Com ele é possível acompanhar e reproduzir de forma prática e explicativa os passos do Ciclo de Análise de Dados, conforme figura abaixo:
 <div align="center">
   
 ![](https://github.com/LabPEC/ProjetoAnaliseDados/blob/main/Docs/CicloDadosBW.png)
